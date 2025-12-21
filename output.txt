@@ -1,2 +1,1 @@
-the sorted array is: 
-1 2 3 4 5 6 7 8 9 
+the largest element is 10
