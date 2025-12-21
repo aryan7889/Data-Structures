@@ -1,1 +1,2 @@
-the largest element is 10
+Second largest element: 8
+Second smallest element: 2
