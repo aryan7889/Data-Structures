@@ -32,7 +32,12 @@ int main(){
         cin>>arr[i];
     }
 
-    binarysearch(arr,n,target);
+    int result = binarysearch(arr, n, target);
+
+    if (result == -1)
+        cout << "Element not found";
+    else
+        cout << "Element found at index " << result;
 
     
     return 0;
