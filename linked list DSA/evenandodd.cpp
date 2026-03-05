@@ -59,7 +59,16 @@ Node* evenandoddll(Node* head){
     return head;
     
 }
-
+/*
+odd       → tracks odd position nodes
+even      → tracks even position nodes
+evenHead  → stores start of even list (VERY IMPORTANT)
+If a node already points to a fully formed sublist,
+connecting to its head connects the entire sublist.
+since both the link are connected as in the odd section and the 
+even section and the most important pointer the even head which need to be 
+connected to the odd.next.
+*/
 int main (){
     int arr[]={1,3,56,7,4,21,4,5,4};
     int n = sizeof(arr)/sizeof(arr[0]);
