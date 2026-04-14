@@ -81,6 +81,7 @@ int getTheMaxArea(vector<int>num1){
 
     return maxArea;
 }
+
 int main(){
     vector<int> num1 = {3,2,10,11,5,10,6,3};
     cout<<"the area of the rectangle are: "<<endl;
@@ -97,4 +98,7 @@ int main(){
 
 }
 
+/*
+
+*/
 
