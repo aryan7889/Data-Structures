@@ -17,21 +17,17 @@ vector<int>asteroidCollision(vector<int>num){
         }else if(st.empty() || st.top()<0){
             st.push(num[i]);
         }
-
-        
-        }
-
-        
     }
+}
 
-    vector<int>ans(st.size());
+vector<int>ans(st.size());
 
-    for(int i=ans.size()-1;i>=0;i--){
+for(int i=ans.size()-1;i>=0;i--){
         ans[i]=st.top();
         st.pop();
-    }
+}
 
-    return ans;
+return ans;
 }
 
 int main(){
