@@ -117,5 +117,7 @@ bool tofind132pattern(const vector<int>& num){
 
 int main(){
     vector<int> num = {3,5,0,3,4};
-    cout << tofind132pattern(num);
+    cout <<boolalpha<< tofind132pattern(num)<<endl;
+
+    return 0;
 }
